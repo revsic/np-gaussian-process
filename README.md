@@ -24,7 +24,7 @@ mu = np.zeros(X.shape)
 cov = kernel(X, X)
 ```
 
-<img src="res/prior.png" width="40%">
+<img src="res/prior.png" width="30%">
 
 ### 3. Compute posterior
 
@@ -37,7 +37,7 @@ Y_train = np.sin(X_train)
 mu_s, cov_s = posterior_predictive(X, X_train, Y_train)
 ```
 
-<img src="res/posterior.png" width="40%">
+<img src="res/posterior.png" width="30%">
 
 ### 4. Training data with noise
 
@@ -50,13 +50,14 @@ Y_train = np.sin(X_train) + noise * np.random.randn(*X_train.shape)
 mu_s, cov_s = posterior_predictive(X, X_train, Y_train, sigma_y=noise)
 ```
 
-<img src="res/noise_posterior.png" width="40%">
+<img src="res/noise_posterior.png" width="30%">
 
 ### 5. GPR with several parameters
 
 Simulate gaussian process regression with several parameters.
 
-<img src="res/several_parameters.png" width="80%">
+<img src="res/param1.png" width="60%">
+<img src="res/param2.png" width="60%">
 
 ### 6. Optimize hyper parameters with gradient based algorithm
 
