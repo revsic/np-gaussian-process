@@ -1,8 +1,8 @@
 # np-gaussian-process
 Numpy implementation of Gaussian Process Regression.
 
-- Reference from [krasserm](http://krasserm.github.io/2018/03/19/gaussian-processes/).
-- Copyright (c) 2018 krasserm. [np-gaussian-regression](https://github.com/revsic/np-gaussian-process) is licensed under [Apache 2.0](./LICENSE).
+- Reference from [gaussian-processes](http://krasserm.github.io/2018/03/19/gaussian-processes/).
+- Full code is based on krasserm's bayesian-machine-learning repository [[GIT](https://github.com/krasserm/bayesian-machine-learning), [LICENSE](./3RD-PARTY.md)]
 
 ## Gaussian process regression
 
